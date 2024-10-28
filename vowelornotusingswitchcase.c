@@ -1,7 +1,10 @@
+// Online C compiler to run C program online
 #include <stdio.h>
 void main()
 {
-  af("%c:&ch");
+    char ch;
+    printf("enter a character ");
+  scanf("%c",&ch);
     switch(ch)
     {
         case'a':
@@ -14,7 +17,7 @@ void main()
         case'I':
         case'O':
         case'U':
-         printf("%c is a consonent",ch);
+         printf("%c is a vowel",ch);
         break;
         default:printf("%c is a consonent",ch);
         break;
