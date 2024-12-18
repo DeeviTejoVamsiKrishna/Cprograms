@@ -6,7 +6,7 @@ void main()
     scanf("%d",&n);
     while(n>0)
     {
-        rem=rem%10;
+        rem=n%10;
         sum=sum+rem;
         n=n/10;
     }
